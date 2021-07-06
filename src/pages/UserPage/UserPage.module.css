@@ -1,0 +1,108 @@
+.user_page_container {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+}
+
+.user_profile_left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.user_profile_left img {
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
+.user_profile_right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex: 3;
+}
+
+.user_name {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.fav_btn {
+  display: flex;
+  height: 2rem;
+  border-radius: 50%;
+  width: 2rem;
+  padding: 0.5rem;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #eef10e;
+  border: 1px solid purple;
+  transition: 0.2s all;
+}
+
+.fav_btn:hover {
+  background-color: #f1b40e;
+}
+
+.user_bio {
+  margin-bottom: 1rem;
+}
+
+.user_followers {
+  margin-bottom: 1rem;
+}
+
+.orgs {
+  text-align: end;
+}
+
+.orgs h4 {
+  margin: 0;
+}
+
+.orgs a img {
+  width: 30px;
+  margin: 0.5rem;
+}
+
+.repos {
+  display: flex;
+  flex-direction: column;
+}
+
+.repos h5 {
+  margin: 0;
+}
+
+.repos_item {
+  border: 1px solid yellow;
+  border-radius: 0.6rem;
+  width: 400px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.repos_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.repos_item a {
+  text-decoration: none;
+  color: #454090;
+  font-size: 1.2rem;
+}
+
+.repos_item h5 {
+  border-bottom: 1px solid #45409000;
+  transition: 0.2s all;
+  width: fit-content;
+}
+
+.repos_item h5:hover {
+  border-bottom: 1px solid #454090;
+}

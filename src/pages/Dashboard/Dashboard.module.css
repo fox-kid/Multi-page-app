@@ -1,0 +1,25 @@
+.users_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 1rem;
+}
+
+.load_more_btn {
+  font-size: 1rem;
+  padding: 0.6rem 1.8rem;
+  inline-size: fit-content;
+  border-radius: 0.6rem;
+  border: 1px solid #342f79;
+  background-color: #171352;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s all;
+  box-shadow: 0px 2px 10px 2px #2e2a6e;
+  display: flex;
+  margin: 1rem auto;
+}
+
+.load_more_btn:hover {
+  background-color: #201a68;
+  box-shadow: 0px 2px 14px 2px #534cb7;
+}

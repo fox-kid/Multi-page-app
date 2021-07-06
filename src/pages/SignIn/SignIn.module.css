@@ -1,0 +1,15 @@
+.sign_in_container {
+  background-color: #171352;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+
+h3 {
+  position: absolute;
+  top: 30%;
+  left: 4rem;
+  color: white;
+}
