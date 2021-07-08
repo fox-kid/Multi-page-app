@@ -87,7 +87,11 @@ function UserPage() {
                 <div className={styles.orgs}>
                   <h4>Organisations:</h4>
                   {maxOrgs.map((org) => (
-                    <Link key={org.login} to={org.url}>
+                    <Link
+                      key={org.login}
+                      to={{ pathname: `${org.url}` }}
+                      target="_blank"
+                    >
                       <img src={org.avatar_url} alt={org.login}></img>
                     </Link>
                   ))}
@@ -99,7 +103,10 @@ function UserPage() {
                   <div className={styles.repos_section}>
                     {maxRepos.map((repo) => (
                       <div key={repo.name} className={styles.repos_item}>
-                        <Link to={repo.html_url}>
+                        <Link
+                          to={{ pathname: `${repo.html_url}` }}
+                          target="_blank"
+                        >
                           <h5>{repo.name}</h5>
                         </Link>
                         <p>{repo.description}</p>
