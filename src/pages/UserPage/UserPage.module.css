@@ -29,17 +29,13 @@
 }
 
 .fav_btn {
-  display: flex;
-  height: 2rem;
-  border-radius: 50%;
-  width: 2rem;
-  padding: 0.5rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
   align-self: center;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 1rem;
   cursor: pointer;
   background-color: #eef10e;
-  border: 1px solid purple;
+  border: 1px solid #f1b40e;
   transition: 0.2s all;
 }
 

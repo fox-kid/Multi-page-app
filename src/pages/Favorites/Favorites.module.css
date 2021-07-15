@@ -10,26 +10,53 @@
   border-radius: 0.6rem;
   margin: 0.5rem;
   display: flex;
+  flex-direction: column;
   max-width: fit-content;
   align-items: center;
 }
 
 .fav_btn {
-  display: flex;
-  height: 2rem;
-  border-radius: 50%;
-  width: 2rem;
-  padding: 0.5rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
   align-self: center;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   background-color: #eef10e;
-  border: 1px solid purple;
-  margin: 0 1rem;
+  border: 1px solid #f1b40e;
+  margin-top: 1rem;
   transition: 0.2s all;
 }
 
 .fav_btn:hover {
   background-color: #f1b40e;
+}
+
+.remove_from_fav {
+  background-color: #fff3b5;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid #f1b40e;
+}
+
+.modal_btn_box {
+  display: flex;
+  justify-content: center;
+}
+
+.modal_btn {
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+  align-self: center;
+  cursor: pointer;
+  background-color: #eef10e;
+  border: 1px solid #f1b40e;
+  margin-top: 1rem;
+  transition: 0.2s all;
+}
+
+.modal_btn:hover {
+  background-color: #f1b40e;
+}
+
+.modal_btn:last-of-type {
+  margin-left: 1rem;
 }

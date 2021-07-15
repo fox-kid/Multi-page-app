@@ -71,7 +71,7 @@ function UserPage() {
                 alt={`${userData.login}_photo`}
               ></img>
               <button className={styles.fav_btn} onClick={toggleFavorites}>
-                +
+                Add to favorites
               </button>
               <span className={styles.user_name}>{userData.login}</span>
               <span className={styles.user_bio}>
@@ -91,6 +91,7 @@ function UserPage() {
                       key={org.login}
                       to={{ pathname: `${org.url}` }}
                       target="_blank"
+                      title={org.login}
                     >
                       <img src={org.avatar_url} alt={org.login}></img>
                     </Link>
