@@ -27,7 +27,12 @@
     }
   },
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0
